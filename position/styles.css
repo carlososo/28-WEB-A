@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 2000px; /* Solo para hacer scroll y ver el efecto del position: fixed */
+}
+
+.caja {
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #333;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.absolute {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

@@ -1,0 +1,27 @@
+.contenedor {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: #ccc;
+}
+
+.caja {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.caja-roja {
+  background-color: red;
+  z-index: 1;
+}
+
+.caja-azul {
+  background-color: blue;
+  z-index: 2;
+}
+
+.caja-verde {
+  background-color: green;
+  z-index: 3;
+}

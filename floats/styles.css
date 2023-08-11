@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 20px auto;
+  overflow: hidden; /* Para que el contenedor se ajuste al contenido flotado */
+}
+
+.columna-izquierda {
+  width: 60%;
+  float: left;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box; /* Para incluir el padding dentro del ancho */
+}
+
+.columna-derecha {
+  width: 40%;
+  float: left;
+  background-color: #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
